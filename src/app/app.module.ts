@@ -14,6 +14,8 @@ import { LottieModule } from 'ngx-lottie';
 import { AdminHomeComponent } from './component/admin/home/home.component';
 import { LoaderInterceptorService } from './service/interceptor/loaderInterceptor.service';
 import { AuthInterceptorService } from './service/interceptor/authInterceptor.service';
+import { MaincarouselComponent } from './component/maincarousel/maincarousel.component';
+
 
 export function playerFactory() {
   return player;
@@ -26,6 +28,8 @@ export function playerFactory() {
     LoginComponent,
     RegisterComponent,
     AdminHomeComponent,
+    MaincarouselComponent,
+   
   ],
   imports: [
     BrowserModule,
